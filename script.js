@@ -36,7 +36,7 @@ function voltarCapitulo() {
     } else {
         capitulo -= 1;
     }
-    audio.src = "assets/books/dom-casmurro/" + capitulo + ".mp3";
+    audio.src = "./assets/books/dom-casmurro/" + capitulo + ".mp3";
     nomeCapitulo.innerText = "Capítulo " + capitulo;
     playCapitulo();
 }
@@ -47,7 +47,7 @@ function avancarCapitulo() {
     } else {
         capitulo = 1;
     }
-    audio.src = "assets/books/dom-casmurro/" + capitulo + ".mp3";
+    audio.src = "./assets/books/dom-casmurro/" + capitulo + ".mp3";
     nomeCapitulo.innerText = "Capítulo " + capitulo;
     playCapitulo();
 }
